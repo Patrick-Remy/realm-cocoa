@@ -38,10 +38,10 @@ targets = {
   'cocoapods-ios-dynamic' => oldest_and_latest,
   'cocoapods-watchos' => oldest_and_latest,
 
-  'swiftpm' => oldest_and_latest,
+  'swiftpm' => minimum_version(12),
   'swiftpm-address' => latest_only,
   'swiftpm-thread' => latest_only,
-  'swiftpm-ios' => latest_only,
+  'swiftpm-ios' => oldest_and_latest,
 
   # These are disabled because the machine with the devices attached is currently offline
   # - ios-device-objc-ios8
